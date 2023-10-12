@@ -75,7 +75,9 @@
     <Content Include="assets\images\2.gif" />
     <Content Include="assets\images\drivers-license-7385051_1280.jpg" />
     <Content Include="assets\images\drivers-licensesmall-7385051_1280.jpg" />
-    <Content Include="assets\images\IMG_0032.JPG" />
+    <Content Include="assets\images\IMG_0032.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\images\stop-sign-37020_1280.png" />
     <Content Include="assets\images\translate.png" />
     <Content Include="changepassword.aspx" />
@@ -389,7 +391,9 @@
     <Content Include="dashboard.aspx" />
     <Content Include="Images\1.gif" />
     <Content Include="Images\2.gif" />
-    <Content Include="Images\IMG_0032.JPG" />
+    <Content Include="Images\IMG_0032.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="logout.aspx" />
     <Content Include="myprofile.aspx" />
     <Content Include="reset.aspx" />
